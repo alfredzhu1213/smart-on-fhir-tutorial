@@ -44,6 +44,8 @@
 
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
+          //getweight
+          p.weight = patient.weight;
           p.gender = gender;
           p.fname = fname;
           p.lname = lname;
@@ -78,6 +80,8 @@
       lname: {value: ''},
       gender: {value: ''},
       birthdate: {value: ''},
+      //weight
+      weight: {value:''},
       height: {value: ''},
       systolicbp: {value: ''},
       diastolicbp: {value: ''},
@@ -121,6 +125,7 @@
     $('#lname').html(p.lname);
     $('#gender').html(p.gender);
     $('#birthdate').html(p.birthdate);
+    $('#weight').html(p.weight);
     $('#height').html(p.height);
     $('#systolicbp').html(p.systolicbp);
     $('#diastolicbp').html(p.diastolicbp);
