@@ -46,7 +46,7 @@
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
           //getweight
-         p.weight = getQuantityValueAndUnit(weight[0]);
+          p.weight = getQuantityValueAndUnit(weight[0]);
           p.gender = gender;
           p.fname = fname;
           p.lname = lname;
